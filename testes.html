@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .nav {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        .nav a:hover {
+            background-color: #ddd;
+        }
+        .content {
+            height: 515px;
+            padding: 20px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .content .teks .judul {
+            display: flex;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .content .teks {
+            font-size: 20px;
+            margin-bottom: 20px;
+            width: 50%;
+            box-sizing: border-box;
+        }
+        .content .foto1 {
+            width: 399px;
+            max-width: 100%;
+            height: auto;
+            margin-left: 20px;
+            object-fit: contain;
+            box-sizing: border-box;
+            display: block;
+        }
+        .footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <td colspan="2" class="header">
+            <h1>Welcome to Grub 2 Website</h1>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Services</a>
+            <a href="#">Clients & Partners</a>
+            <a href="#">Blog/News</a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="content">
+            <div class="teks">
+                <p class="judul">Isi Konten</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa enim ducimus animi. Incidunt, maiores sapiente natus cupiditate quod molestias corporis, provident ipsa autem cumque laudantium iusto aspernatur sunt ad.</p>
+            </div>
+            <img class="foto1" src="hiro.png" alt="haha">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="footer">
+            &copy; 2025 Nama Perusahaan. Semua Hak Dilindungi.
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
