@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website dengan Tabel - Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .nav {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        .nav a:hover {
+            background-color: #ddd;
+        }
+        .content {
+            padding: 30px;
+            background-color: #ffffff;
+            min-height: 400px;
+        }
+        .footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Gaya layanan */
+        .services-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .service-card {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .service-card h3 {
+            margin-top: 0;
+            color: #007BFF;
+        }
+
+        .service-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <td colspan="2" class="header">
+            <h1>Selamat Datang di Website Kami</h1>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="nav">
+            <a href="home.HTML">Home</a>
+            <a href="about.HTML">About</a>
+            <a href="contact us.HTML">Contact Us</a>
+            <a href="services.HTML">Services</a>
+            <a href="client & partners.HTML">Clients & Partners</a>
+            <a href="blog/news.HTML">Blog/News</a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="content">
+            <h2 style="text-align: center;">✨ Layanan Kami ✨</h2>
+            <p style="text-align: center;">Kami menghadirkan solusi digital terbaik untuk mendukung perkembangan bisnis dan kebutuhan Anda.</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Pengembangan Website</h3>
+                    <p>Membuat website modern dan responsif untuk bisnis, portofolio, sekolah, dan organisasi.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Aplikasi Mobile</h3>
+                    <p>Solusi aplikasi Android & iOS untuk operasional perusahaan maupun kebutuhan pengguna.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Desain Grafis</h3>
+                    <p>Logo, poster, banner, hingga branding visual profesional yang menarik dan konsisten.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3>Digital Marketing</h3>
+                    <p>SEO, iklan digital, kampanye sosial media untuk meningkatkan visibilitas dan penjualan.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🧠</div>
+                    <h3>Konsultasi IT</h3>
+                    <p>Pendampingan strategi teknologi untuk efisiensi kerja, skalabilitas, dan solusi berbasis data.</p>
+                </div>
+            </div>
+
+            <p style="text-align: center; margin-top: 30px;">📞 Hubungi kami sekarang untuk konsultasi GRATIS!</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="footer">
+            &copy; 2025 Nama Perusahaan. Semua Hak Dilindungi.
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
